@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@id/view_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/qunzu_feature_bg1" />
+
+    <LinearLayout
+        android:id="@id/scrolling_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="@dimen/first_page_margin_top"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/feature_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/qunzu_feature_title1" />
+
+        <LinearLayout
+            android:id="@id/feature_textview_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="44.0dip"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/feature_content_bg1_row1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8.0dip"
+                android:text="老乡,是在外拼搏情感的依托"
+                android:textColor="@android:color/white"
+                android:textSize="16.0dip"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8.0dip"
+                android:text="是寒天里一起干活儿黝黑的脸"
+                android:textColor="@android:color/white"
+                android:textSize="16.0dip"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8.0dip"
+                android:text="是漂泊路上一起回家的期盼"
+                android:textColor="@android:color/white"
+                android:textSize="16.0dip"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8.0dip"
+                android:text="离乡背井注定孤独"
+                android:textColor="@android:color/white"
+                android:textSize="16.0dip"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8.0dip"
+                android:text="但庆幸,总有老乡在身边......"
+                android:textColor="@android:color/white"
+                android:textSize="16.0dip"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20.0dip"
+        android:src="@mipmap/qunzu_feature_arrow" />
+</FrameLayout>

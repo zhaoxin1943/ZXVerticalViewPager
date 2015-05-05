@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@id/view_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/qunzu_feature_bg2" />
+
+    <LinearLayout
+        android:id="@id/scrolling_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/feature_content_bg2_row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/word_margin_top"
+            android:text="淼淼,服务员"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/name_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@id/feature_content_bg2_row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/word_margin_top"
+            android:text="江西赣州人"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@id/feature_content_bg2_row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/word_margin_top"
+            android:text="现在在外面多学一点经"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@id/feature_content_bg2_row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/word_margin_top"
+            android:text="验,将来也要自己开个"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@id/feature_content_bg2_row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/word_margin_top"
+            android:text="小饭馆,图个自由"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/word_size"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@id/feature_bg2_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="8.0dip"
+            android:src="@mipmap/qunzu_feature_bg2_icon"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@id/feature_bg2_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/word_margin_top"
+            android:src="@mipmap/qunzu_feature_bg2_pop"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="15.0dip"
+        android:src="@mipmap/qunzu_feature_arrow" />
+</FrameLayout>
